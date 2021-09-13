@@ -7,6 +7,7 @@
   padding: 0;
   border-radius: 5px 5px 0 0;
   overflow: scroll;
+  border: 1px solid black;
 
 }
 
@@ -74,12 +75,13 @@ font-weight: bold;
 .field {
   position:absolute;
   padding: 1;
-  margin-top: -90px;
+  margin-top: -93px;
   border: 1px black solid;
   width: 340px;
   display: inline-flex;
   gap: 7px;
 }
+
 #message {
   width: 250px;
 }
