@@ -1,100 +1,92 @@
 
 .container {
-  position: fixed;
-  width: 350px;
-  max-height:60%;
-  bottom: 10px;
-  right: 10px;
-  border: 1px solid black;
-  border-radius: 5px 5px 0 0 ;
-  display:grid;
+  width: 340px;
+  max-height: 400px;
+  margin: 0 auto;
+  margin-top: 90px;
+  padding: 0;
+  border-radius: 5px 5px 0 0;
   overflow: scroll;
 
 }
 
+.top {
+  width: 338px;
+  background-color: rgb(15,57,92);
+  border-radius: 5px 5px 0 0;
+  position: absolute;
+  color: rgb(236,236,236);
+  display: block;
+}
 
-/* Top Bar */
-#topbar {
-background-color: rgb(55,171,200);
+#topBar {
+  display: flex;
+}
+
+#logo, #Triad {
+  margin: 5px 5px 5px 5px;
+}
+
+#logo {
+  border: 0.5px solid white;
+}
+
+#Triad {
+  margin-left: 0;
+}
+
+#close {
+  margin: 0px 0px 5px 145px;
+}
+
+#online, #offline {
+margin-left: 40px;
 margin-bottom: 5px;
-position: fixed;
-width: 100%;
-margin: auto;
-height: 5%;
+font-weight: bold;
 }
 
-#row1, #row2a {
-  background-color: rgb(55,171,200);
-  height: 5%;
+#online {
+  display: none;
 }
 
-/* Chat Body */
-#chatbody {
-  background-color: rgb(255,255,255);
-  margin-top: 10%;
+.convo {
+  margin-top: 65px;
+  overflow: scroll;
+
 }
 
-#row3 {
-  margin-top:5%;
-  margin-left: 5px;
-  display: flex;
-}
-
-#row4, #row5 {
-  background-color: rgb(170,238,255);
+#greeting, #agent {
+  background-color: rgb(175,233,221);
   width: 70%;
-  border-radius: 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  padding: 1px;
-  justify-content: space-around;
+  border-radius: 5px;
+  margin: 5px 5px 5px 5px;
+  padding: 2px 2px 2px 5px;
 }
 
-#answer {
-    background-color: rgb(170,238,255);
-    width: 70%;
-    border-radius: 10px;
-    margin-top: 5px;
-    margin-bottom:5px;
-    margin-left: 5px;
-    padding: 1px;
-    justify-content: space-around;
-  }
-
-
-#ask {
-  background-color: rgb(236,236,236);
+#user {
+  background-color: rgb(128,128,128);
   width: 70%;
-  border-radius: 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
   margin-left: 30%;
-  float: right;
-  justify-content: space-around;
+  border-radius: 5px;
+  padding: 2px 2px 2px 5px;
 }
 
-#answerlast {
-    background-color: rgb(170,238,255);
-    width: 70%;
-    border-radius: 10px;
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-bottom:5%;
-    justify-content: space-around;
+.field {
+  position:absolute;
+  padding: 1;
+  margin-top: -90px;
+  border: 1px black solid;
+  width: 340px;
+  display: inline-flex;
+  gap: 7px;
+}
+#message {
+  width: 250px;
 }
 
-/* Enter Text Here */
-#lastrow {
-  width: 350px;
-  display: flex;
-  position: fixed;
-  margin-top: 80%;
-  height: 10%;
+#submit {
+  width: 25%;
 }
-#sendbtn {
-  align-self: right;
-  margin-left: 5px;
 
-}
+
 

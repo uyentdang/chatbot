@@ -9,76 +9,37 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     </head>
+<body>
+  <div class="container">
+  <div class=top>
+  <section id="topBar">
+    <img src="Images/Logo.png" id="logo" alt="TriadhLogo">
+    <h5 id="Triad">Triad Assistant</h5>
+    <h5 id="close">x</h5>
+  </section>
+    <section id="status">
+      <p id="online">Online</p>
+      <p id="offline">Offline</p>
+    </section>
+    </div>
+  <div class="convo">
+  <section id="greeting">Hi, Thanks for reaching out. How may I help you today?</section>
+  <section id="greeting">Here are some options to start: <a href="">option1</a>, <a href="">option2</a>, <a href="">option3</a>, <a href="">others</a></section>
+  <section id="user">Who is Elizabeth II?</section>
+  <section id="agent">She is the queen of England</section>
+  <section id="user">Who is David Beckham?</section>
+  <section id="agent">He is a famous British soccer player</section>
+  <section id="user">When is your birthday?</section>
+  <section id="agent">I was created on 12/31/2022</section>
+  <section id="user">What's your name?</section>
+  <section id="agent">I am The Assistant</section>
+  </div>
 
-  <body>
-    <div class="container">
+  <section class="field">
+    <input type="text" value="Send message" id="message"/>
+    <input type="submit" value="Submit" id="submit"/>
+    </section>
 
-      <!--Top Bar-->
-      <div class="row" id="topbar">
-        <p>Triadh Assistant</p>
-      </div>
-
-       <!--Chat Body-->
-      <div class="row" id="chatbody">
-      <div class="row" id="row3">
-        <img src="Images/Logo.png" id="logo" alt="TriadhLogo">
-        <p>Triadh Assistant:</p>
-        </div>
-      <div class="row" id="row4">
-        <p> Hi, <br> Thanks for reaching out. How may I help you today?</p>
-        </div>
-      <div class= "row" id="row5">
-          <p> Here are some options to start: <a href="">option1</a>, <a href="">option2</a>, <a href="">option3</a>, <a href="">others</a><p>
-          </div>
-
-        <!--Chat Convo-->
-        <div class="row" id="ask">
-          <p>Who is Elizabeth II?</p>
-          </div>
-
-        <div class="row" id="answer">
-          <p>She is the queen of England</p>
-          </div>
-        <div class="row" id="ask">
-          <p>Who is David Beckham?</p>
-          </div>
-        <div class="row" id="answer">
-          <p>He is a famous soccer player.</p>
-          </div>
-
-          <div class="row" id="ask">
-            <p>When is your birthday?</p>
-            </div>
-
-          <div class="row" id="answer">
-            <p>I was created on 12/31/2022</p>
-            </div>
-          <div class="row" id="ask">
-            <p>What is your name?</p>
-            </div>
-          <div class="row" id="answerlast"><p>I am called the Assistant</p>
-          </div>
-         <!--Enter Text Here-->
-       <div class="row" id="lastrow">
-        <input type="text" size="33" value="Type your questions here...">
-        <input type="submit" value="Send" class="btn btn-sml btn-dark" id="sendbtn">
-
-        </div>
-      </div>
-
-
-      </div>
-
-
-
-    <!--jQuery the Popper.js then Bottstrap JS-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </div>
+    </body>
   </body>
-
-  <footer>
-    </footer>
-
-
-</html>
